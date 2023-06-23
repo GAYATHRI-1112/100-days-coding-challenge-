@@ -1,0 +1,15 @@
+//Program to find total no of chapters 
+#include <stdio.h>
+
+int main() {
+    int N,t,r=1;
+    printf("Enter the No of course unit  and chapter  ");
+    scanf("%d",&N);
+    t=N;
+    while (t!=0)
+    {
+        r=r*t%10;
+    t=t/10;
+    }
+    printf("Total no of chapters=%d",r);
+}
