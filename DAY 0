@@ -1,0 +1,28 @@
+PROGRAM 1
+int main()
+{
+    int a,b,c;
+    printf("Enter the values:");
+    scanf("%d%d%d",&a,&b,&c);
+    printf("%d\n%d\n%d",a+b,a+c,b+c);
+    }
+PROGRAM 2
+int main()
+{int r;
+float A;
+printf("r=");
+scanf("%d",&r);
+A=3.14*r*r;
+    printf("A=%f",A);
+
+}
+PROGRAM 3
+int main()
+{int a;
+puts("Enter the number:");
+scanf("%d",&a);
+if(a%2==0)
+    printf("YES");
+else
+    printf("NO");
+}
