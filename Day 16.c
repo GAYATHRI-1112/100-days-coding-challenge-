@@ -8,7 +8,7 @@ int main()
     {
         printf("Enter the value of N,X");
         scanf("%d%d",&N,&X);
-        if(X%N==0)
+        if(N<=X&&X%N==0)
         printf("Yes");
         else
     printf("No");
